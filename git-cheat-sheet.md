@@ -177,7 +177,8 @@ Commands
 
 Description
 
-git revert <commit>	Creates a new commit that undoes the changes introduced by the specified commit.
+git revert <commit>	Creates a new commit that undoes the changes introduced by
+You can also use git fetch
 git revert --no-commit <commit>	Undoes the changes introduced by the specified commit, but does not create a new commit.
 git rebase <branch>	Reapplies commits on the current branch onto the tip of the specified branch.
 Git Reflog – Recovering Lost Commits
